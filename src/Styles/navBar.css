@@ -1,0 +1,19 @@
+.header-btns {
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    margin: 15px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header-btns button {
+    border: none;
+    width: 50px;
+    height: 25px;
+    color: gray;
+    background-color: transparent;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 1px solid gray;
+}

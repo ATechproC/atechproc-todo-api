@@ -1,0 +1,20 @@
+.toast {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-color: green;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    transition: display .5s ease;
+}
+
+.flx {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.toast-msg {
+    font-weight: bold;
+}

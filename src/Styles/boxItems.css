@@ -1,0 +1,24 @@
+.box-items {
+    background-color: #471396;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.box-icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.activity {
+    color: #fff;
+    line-height: 1.2;
+}
+
+.activity p {
+    font-size: 16px;
+}

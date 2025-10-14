@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  height: 100vh;
+  background-color: #001;
+  display : grid;
+  place-items: center;
+}
+
+a.active button {
+  color: red;
+}
