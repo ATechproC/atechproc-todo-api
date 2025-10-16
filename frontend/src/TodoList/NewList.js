@@ -8,8 +8,27 @@ export default function NewList() {
     const { lists, dispatch } = useNewList();
 
     function handleNewListItem() {
-        dispatch({type : "added", payLoad : inputValues})
+        dispatch({ type: "added", payLoad: inputValues })
     }
+
+    // useEffect(() => {
+
+    //     const url = "http://localhost:8080/add";
+
+    //     const addNewTodo = async (url) => {
+    //         await fetch(url, {
+    //             method: "POST",
+    //             body: JSON.stringify({
+    //                 title: "first test",
+    //                 description: "first description",
+    //                 isCompleted: false
+    //             })
+    //         });
+    //     }
+
+    //     addNewTodo(url);
+
+    // }, [title, description]);
 
     useEffect(() => {
         localStorage.setItem("lists", JSON.stringify(lists));
@@ -26,7 +45,7 @@ export default function NewList() {
         <div className="inputs-container">
             <button
                 onClick={() => {
-                    if (inputValues.title !== "" && 
+                    if (inputValues.title !== "" &&
                         inputValues.description) {
                         handleNewListItem();
                         setInputValues({

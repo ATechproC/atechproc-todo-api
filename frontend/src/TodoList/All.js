@@ -6,6 +6,7 @@ import "../Styles/boxItems.css";
 import BoxItems from "./BoxItems";
 
 export default function All() {
+    
     const { lists } = useNewList();
 
     return (

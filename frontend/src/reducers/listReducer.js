@@ -62,6 +62,8 @@ export default function listReducer(currentList, action) {
             return [...newList, value];
         }
 
+        case "set-todos" : return action.payload.todos;
+
         default: {
             throw Error("Unknown Action " + action.type);
         }
